@@ -8,8 +8,13 @@ Assembler for the NEANDER processor simulator. NEANDER source URL: https://www.i
 - neander_assembler.out: compiled assembler
 - neander.mem: binary output
 
-## To compile
+## To compile assembler
 ```bash
 flex neander_assembler.l
 gcc -o neander_assembler.out -g lex.yy.c -lfl
+```
+
+## To run assembler
+```bash
+./neander_assembler.out input.asm
 ```
