@@ -1,2 +1,3 @@
 neander-assembler/*.out
 neander-assembler/*.mem
+neander-assembler/lex.yy.c
